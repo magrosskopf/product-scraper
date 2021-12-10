@@ -4,7 +4,7 @@ const url = require('url');
 const fs = require('fs');
 let browser = null;
 const websites = [];
-
+//https://www.google.de/search?q=glynt+revital+regain+shot&sxsrf=AOaemvIDeHj7mdgppZ8WpaEIOiRf1M8Sww:1639172637489&ei=HcqzYYHPHNvO7_UPs-GnaA&start=10&sa=N&ved=2ahUKEwjB0aD2mdr0AhVb57sIHbPwCQ0Q8NMDegQIARBO&biw=1920&bih=912
 
 (async () => {
     browser = await puppeteer.launch();
