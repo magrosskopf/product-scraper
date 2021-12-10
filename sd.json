@@ -1,759 +1,233 @@
-[ {
-        "@context": "https://schema.org",
-        "@type": "Product",
-
-        "name": "GLYNT REVITAL Regain Set",
-        "brand": "GLYNT",
-        "image": "https://cdn.basler-beauty.de/out/pictures/generated/product/1/540_340_75/2510820-GLYNT-REVITAL-Regain-Set.dc7a5881.jpg",
-        "description": "Das GLYNT REVITAL Regain Set enthält:1 x GLYNT REVITAL Care Spray, 150 ml1 x GLYNT REVITAL...",
-        "sku": "2510820",
-        "gtin13": "",
-        "offers": {
-            "@type": "Offer",
-            "url": "https://www.basler-beauty.de/marken/glynt/glynt-revital-regain-set.html",
-            "priceCurrency": "EUR",
-            "price": "24.4",
-            "availability": "https://schema.org/InStock"
+[{
+    "@context": "https://schema.org",
+    "@id": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "@type": "Product",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": 5,
+        "ratingValue": 5,
+        "reviewCount": 4,
+        "worstRating": 0
+    },
+    "brand": {
+        "@type": "Brand",
+        "name": "Glynt"
+    },
+    "category": "Shampoo",
+    "image": [{
+        "@type": "ImageObject",
+        "contentUrl": "https://cdn.billiger.com/dynimg/qXOoFyNRsul7Y2LaQpwcarTgglm8gNKEPB3py6mmD7i1UWo0HdaLj9zg8l0eCWmGef-H9kJKYNjY4u1C023x31HiSg2GSBA-INyZ6-weRu5ev-kCM6jxeYP4TJ-c6LOU_6JUUgXkAkhAF4c0q9hDHWP9k57k4gS9ODXF-QTMdJ1N6ilugaSd8-5Z-p06lvnc0j8Z8LCKo_J/glynt-botanic-regain-03-50-ml.JPEG",
+        "name": "Glynt Revital Regain 03 - main",
+        "thumbnailUrl": "https://cdn.billiger.com/dynimg/qXOoFyNRsul7Y2LaQpwcarTgglm8gNKEPB3py6mmD7i1UWo0HdaLj9zg8l0eCWmGef-H9kJKYNjY4u1C023x31HiSg2GSBA-INyZ6-weRu5ev-kCM6jxeYP4TJ-c6LOU_6JUUgXkAkhAF4c0q9hDHWP9k57k4gS9ODXF-QTMdJ1N6ilugaSd8-5Z-p06lvnc0j8Z8LCKo_J/glynt-botanic-regain-03-50-ml.JPEG"
+    }],
+    "name": "Glynt Revital Regain 03",
+    "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": 3.6,
+        "offerCount": 25,
+        "priceCurrency": "EUR"
+    },
+    "sku": "31648",
+    "url": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "correctUrl": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "baseUrl": "https://www.billiger.de"
+}, {
+    "@context": "https://schema.org",
+    "@id": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "@type": "Product",
+    "review": [{
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "JonSom"
         },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "",
-            "bestRating": "5",
-            "worstRating": "1",
-            "reviewCount": "1"
+        "datePublished": "2016-05-24",
+        "name": "Für gesundes und glänzendes Haar ",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
         },
-        "review": [{
-            "@type": "Review",
-            "@id": "reviewName_1",
-            "name": "Hab nicht richtig geschaut, dass Spray statt Maske im Set ist. Nicht wie erwartet.",
-            "reviewBody": "Hab nicht richtig geschaut, dass Spray statt Maske im Set ist. Nicht wie erwartet.",
-            "datePublished": "2021-08-06",
-            "author": {
-                "@type": "Person",
-                "name": ""
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "3",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-        }]
+        "reviewBody": "Da ich sehr sprödes und trockenes Haar habe, habe ich bereits mehrere Produkte der Marke Glynt ausprobiert, um meine Haare zu pflegen. Da ich sehr gute Erfahrungen mit ihnen gemacht hatte, habe ich mich für das Glynt Revital Regain 3 entschieden. \r\nAuch wenn es sich hierbei um ein Pflegeprodukt handelt, welches sich besonders an Frauen richtet, kann ich es sehr für Männer empfehlen, da ich bisher kein vergleichbares Produkt für Männer gefunden habe. \r\n\r\nDadurch, dass dieses Shampoo sehr viele Öle enthält, sorgt es dafür, dass es für sehr gesund glänzende Haare sorgt. Des Weiteren macht es die Haare sehr geschmeidig, wodurch sie sich sehr weich anfühlen. Dadurch, dass sie so weich sind, lassen sie sich wunderbar durchkämmen und verknoten nicht. Bereits nach einer einzigen Woche der Benutzung habe ich deutliche Verbesserungen meiner Haare bemerkt. Zuvor waren meine haare immer sehr strohig, was sich mit diesem Shampoo jedoch sehr schön verbessert hat. Mein einziger wirklicher Kritikpunkt an diesem Shampoo ist, dass das Shampoo mit einem Preis von knapp 27€ ziemlich teuer ist. Dafür erhält man jedoch auch einen ganzen Liter, welcher besonders als Mann wirklich sehr langsam aufgebraucht wird. Als Frau sollte man es sich allerdings überlegen, ob einem die Haarpflege so viel wert ist. Ansonsten kann ich dieses Produkt jedoch durchaus weiterempfehlen, da es die Haare sehr schön pflegt, wodurch ein super Look entsteht.",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
     }, {
-        "@context": "http://schema.org/",
-        "@type": "Product",
-        "name": "GLYNT REVITAL Regain Milk 200ml",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "bestRating": "5.00",
-            "worstRating": "1.00",
-            "ratingValue": "4.95",
-            "reviewCount": "225",
-            "ratingCount": "225"
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "Rainboweinhorn"
         },
-        "review": [{
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-15",
-            "reviewBody": "Benutze ich seit Jahren",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-11",
-            "reviewBody": "Alles super tolle Preise schnelle Lieferung",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-10",
-            "reviewBody": "",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-09",
-            "reviewBody": "",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-09",
-            "reviewBody": "",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-04",
-            "reviewBody": "Ich nehme dieses Produkt schon länger und bin sehr zufrieden.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-10-31",
-            "reviewBody": "",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-10-26",
-            "reviewBody": "Tolles Pflegepeodukt\nMacht Haare toll kämmbar",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-10-25",
-            "reviewBody": "TOPP",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "Nicole R."
-            },
-            "datePublished": "2021-10-20",
-            "reviewBody": "Super Artikel- fairer Preis\nSchnelle Lieferung",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }],
-        "image": "http://static.trustedshops.com/img/brand/e-trustedshops_black_145-60.png"
+        "datePublished": "2016-05-21",
+        "name": "Tschüss Spliss und Haarbruch - Hallo volles Haar!",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
+        },
+        "reviewBody": "Noch vor einem halben Jahr habe ich meine eigentlich braun-schwarzen Haare hellblond gefärbt, was die Struktur dieser auf Dauer natürlich volkommen zerstörte. Vor einigen Wochen habe ich wieder auf meine Naturhaarfarbe umgestellt und meine Frisur auf Schulterlänge schneiden lassen.\r\n\r\nDoch natürlich waren meine Haare immernoch kaputt. Weil ich das schrecklich fand, wie zerbrochen und spröde sie aussahen, griff ich zum Glynt Revital Regain 3 in der 1000 ml Größe.\r\n\r\nDas Auftragen stellte sich für mich recht einfach dar, ich benutzte das Produkt wie es auf der Rückseite stand nach dem Haarewaschen. Die cremige, sehr viskose Substanz ließ sich von mi schnell und ohne Probleme in meinem dünnen Haar verteilen, welches deutlich unter Spliss und Haarbruch litt.\r\n\r\nDie ersten Tage habe ich gar keinen Unterschied gemerkt, wenn ich durch mene Haare kämmte, fielen wie zuvor Bruchstücke der Keratinfasern herab. Doch schon nach etwa einer Woche tat sich etwas! Meine Haare glänzten von Tag zu Tag mehr, wie ich feststellen konnte! Auch habe ich nach Spliss gesucht und fast keinen mehr gefunden, nur noch ganz vereinzelt und wenig!\r\n\r\nIch war vom Ergebnis wirklich beeindruckt, zumal ich schon fast nicht mehr damit gerechnet hatte ! Hier muss man also laut meiner Erfahrung etwas Geduld mitbringen.\r\n\r\nHeute ist meine Frisur fasr wie früher, finde ich, ich kann keinen Unterschied erkennen. Meine vorher dünnen und struppeligen Haare, die zu allen Seiten abstanden sehen nun für mich gepflegt aus, sie sind glatt, glänzen und wenn ich einen Zopf binden möchte, habe ich auch endlich wieder etwas mehr in der Hand!\r\n\r\nZudem möchte ich noch kurz benennen, dass das Produkt für mich wirklich sehr gut riecht. Da ich die Creme nicht aus dem Haar spüle, sondern einwirken lasse, duftet meine Frisur den ganzen Tag nach Sommer und Frühling. Ich weiß nicht genau, welche Aromen verwendet worden sind, jedoch kann ich meiner Ansicht nach Rose ganz dominant herausschnuppern.\r\n\r\nIch bin hin und weg, wenn ich das Ergebnis betrachte und kann daher das Glynt Revital Regain 3 mit sehr guter Erfahrung weiter empfehlen!",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
     }, {
-        "@context": "http://schema.org/",
-        "@type": "Product",
-        "name": "GLYNT REVITAL Regain Milk 50ml",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "bestRating": "5.00",
-            "worstRating": "1.00",
-            "ratingValue": "4.76",
-            "reviewCount": "34",
-            "ratingCount": "34"
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "Minkiboo"
         },
-        "review": [{
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-10-06",
-            "reviewBody": "Optimal. Ich werde wieder bestellen.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-09-24",
-            "reviewBody": "klein aber fein - fürs reisen",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-09-12",
-            "reviewBody": "Sehr gut zum knatschen für meine Naturlocken",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "Barbara W."
-            },
-            "datePublished": "2021-09-08",
-            "reviewBody": "Gute Kämmbarkeit nach der Wäsche. Praktische Leave in Anwendung.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "4"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-08-16",
-            "reviewBody": "Mega gutes Produkt macht die Haare sehr weich. Geht leider zu schnell leer",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "3"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-08-12",
-            "reviewBody": "Sehr pflegend , aber macht feine Haare platt und sieht nach 50% Haardichte anschließend aus",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "Nathalie P."
-            },
-            "datePublished": "2021-08-02",
-            "reviewBody": "Ich benutze es nach jeder Haarwäsche und bin sehr zufrieden",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "Marian S."
-            },
-            "datePublished": "2021-06-21",
-            "reviewBody": "Das Regain Milk ist nur zur Empfehlung.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "Renate G."
-            },
-            "datePublished": "2021-05-08",
-            "reviewBody": "noch nicht benutzt, kann noch nichts dazu sagen.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 50ml",
-            "author": {
-                "@type": "Person",
-                "name": "Karo N."
-            },
-            "datePublished": "2020-07-28",
-            "reviewBody": "Das Produkt lässt sich sehr gut im Haar verteilen. Die Haare sehen sehr gepflegt und gesund aus. Sehr ergiebig.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }],
-        "image": "http://static.trustedshops.com/img/brand/e-trustedshops_black_145-60.png"
+        "datePublished": "2016-05-10",
+        "name": "Repariert kaputtes und coloriertes Haar",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
+        },
+        "reviewBody": "Meine Haare sind super strapaziert von ständigem Färben, Föhnen, Glätten, Stylen... Und da habe ich unbedingt nach etwas gesucht, was meine Haare pflegt und gleichzeitig etwas gesünder macht, ohne dass ich die kaputten Spitzen unmittelbar abschneiden lassen muss.\r\n\r\nDer Friseur meines Vertrauens hat mir empfohlen, ein Produkt aus der Glynt Revital Serie auszuprobieren und ich habe mir direkt Shampoo, Spülung und Haarkur geholt und bin wirklich absolut begeistert.\r\n\r\nIn diesem Zusammenhang möchte ich gerne sagen, dass ich vor allem von dem Shampoo Regain begeistert bin, weil es mein Haar geradezu revolutioniert hat! Ich habe selten so etwas erlebt, denn meistens bewirkt Shampoo bei mir nicht wirklich etwas und nur Spülung oder Kur sorgen für den besonderen Effekt. Doch in diesem Fall ist es anders.\r\n\r\nDas dickflüssige, zähe Shampoo lässt sich leicht mit dem Fingern im Haar verteilen. Auch wenn es nicht aufschäumt, soll man nicht zu viel benutzen, da das Haar ansonsten schnell zu fettig wird und Schuppen entstehen können.\r\n\r\nIch habe dieses Shampoo nun seit etwa sechs Monaten und habe nun die 10000 ml Packung gekauft, weil diese mit knapp 28 Euro viel günstiger ist im Preis-Leistungs-Verhältnis als 4 x 250 ml Flaschen für 15 Euro zu kaufen.\r\n\r\nAus den gegebenen Gründen bin ich vollständig begeistert von dem Shampoo, welches meine Haare geschmeidig und glänzend macht und langfristig gesunder erscheinen lässt. Die Farbe verblasst nicht nur mein coloriertes Haar verliert auch nach 10 oder 15 Haarwäschen nicht an Glanz und Brillanz.",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
     }, {
-        "@context": "http://schema.org/",
-        "@type": "Product",
-        "name": "GLYNT REVITAL Regain Milk 450ml",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "bestRating": "5.00",
-            "worstRating": "1.00",
-            "ratingValue": "4.89",
-            "reviewCount": "27",
-            "ratingCount": "27"
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "JackyWMfan"
         },
-        "review": [{
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-09",
-            "reviewBody": "",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-01",
-            "reviewBody": "",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-09-06",
-            "reviewBody": "tolles Produkt, bin begeistert",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-06-20",
-            "reviewBody": "Lässt sich super für colorierte Haare anwenden!",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "Rolf D."
-            },
-            "datePublished": "2021-05-26",
-            "reviewBody": "Prima kaufe ich wieder. Empfehle ich weiter",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "4"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-05-11",
-            "reviewBody": "Die Info zu diesem Produkt habe ich vom Friseur. Kann es nur weiter empfehlen.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "Sandra D."
-            },
-            "datePublished": "2021-05-08",
-            "reviewBody": "Habe vom Friseur eine Probe bekommen und war sehr begeistert!",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-02-03",
-            "reviewBody": "Das Produkt wurde mir von meinem Frisör empfohlen. Nehme es schon seit einigen Jahren u. bin sehr zufrieden.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "Renate D."
-            },
-            "datePublished": "2020-12-26",
-            "reviewBody": "Hatte ich mir beim Friseur geklauft und fand es gut. Hier nun bestellt, da günstiger.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Milk 450ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2020-08-30",
-            "reviewBody": "Super Produkt, nie wieder ein anderes! Es hält, was es verspricht.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }],
-        "image": "http://static.trustedshops.com/img/brand/e-trustedshops_black_145-60.png"
+        "datePublished": "2016-05-08",
+        "name": "Vor allem für coloriertes und geschädigtes Haar ",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
+        },
+        "reviewBody": "Ich habe dieses Shampoo von Glynt Revital im Internet entdeckt und fand dieses Produkt direkt ansprechend. Ich habe es mir bestellt, nachdem ich mir einige Rezensionen durchgelesen habe. Es ist besonders für geschädigtes, dünnes und coloriertes Haar geeignet. Die Farbe von coloriertem Haar soll besser aufgefasst und umsiegelt werden. Als ich das Shampoo auf meinen betroffenen Haaren, die auch sehr dünn und auch coloriert sind, aufgetragen habe, hat man schon nach der ersten Haarwäsche gesehen, dass sie mehr glänzen und sogar die Farbe wieder etwas verstärkt wurde. Hierbei ist es egal, ob man helle oder dunkle Haare hat. Der Preis für dieses Produkt ist für manche vielleicht etwas hoch, da es kein Drogeriepreis ist. Ich jedoch finde für 1000ml Produkt ist der Preis gerechtfertigt und das Preis-Leistungsverhältnis stimmt, die Qualität stimmt hierbei nämlich auch. Ich würde es mir daher immer wieder kaufen. Es hält sehr lange und bei mir sogar länger als einige Drogerieprodukte, bei denen meistens sogar weniger als die Hälfte wie im Gegensatz zum Glynt Shampoo ist. Die Verpackung des Shampoos ist auch ansprechend und schick, vielleicht ein wenig unscheinbar. Ich habe nichts Negatives dazu zu sagen, tolles Produkt.",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
+    }],
+    "correctUrl": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "baseUrl": "https://www.billiger.de"
+}, {
+    "@context": "https://schema.org",
+    "@id": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "@type": "Product",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": 5,
+        "ratingValue": 5,
+        "reviewCount": 4,
+        "worstRating": 0
+    },
+    "brand": {
+        "@type": "Brand",
+        "name": "Glynt"
+    },
+    "category": "Shampoo",
+    "image": [{
+        "@type": "ImageObject",
+        "contentUrl": "https://cdn.billiger.com/dynimg/qXOoFyNRsul7Y2LaQpwcarTgglm8gNKEPB3py6mmD7i1UWo0HdaLj9zg8l0eCWmGef-H9kJKYNjY4u1C023x31HiSg2GSBA-INyZ6-weRu5ev-kCM6jxeYP4TJ-c6LOU_6JUUgXkAkhAF4c0q9hDHWP9k57k4gS9ODXF-QTMdJ1N6ilugaSd8-5Z-p06lvnc0j8Z8LCKo_J/glynt-botanic-regain-03-50-ml.JPEG",
+        "name": "Glynt Revital Regain 03 - main",
+        "thumbnailUrl": "https://cdn.billiger.com/dynimg/qXOoFyNRsul7Y2LaQpwcarTgglm8gNKEPB3py6mmD7i1UWo0HdaLj9zg8l0eCWmGef-H9kJKYNjY4u1C023x31HiSg2GSBA-INyZ6-weRu5ev-kCM6jxeYP4TJ-c6LOU_6JUUgXkAkhAF4c0q9hDHWP9k57k4gS9ODXF-QTMdJ1N6ilugaSd8-5Z-p06lvnc0j8Z8LCKo_J/glynt-botanic-regain-03-50-ml.JPEG"
+    }],
+    "name": "Glynt Revital Regain 03",
+    "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": 3.6,
+        "offerCount": 25,
+        "priceCurrency": "EUR"
+    },
+    "sku": "31648",
+    "url": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "correctUrl": "https://webcache.googleusercontent.com/search?q=cache:duf9kxFyhUIJ:https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03+&cd=8&hl=de&ct=clnk&gl=de",
+    "baseUrl": "https://webcache.googleusercontent.com"
+}, {
+    "@context": "https://schema.org",
+    "@id": "https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03",
+    "@type": "Product",
+    "review": [{
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "JonSom"
+        },
+        "datePublished": "2016-05-24",
+        "name": "Für gesundes und glänzendes Haar ",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
+        },
+        "reviewBody": "Da ich sehr sprödes und trockenes Haar habe, habe ich bereits mehrere Produkte der Marke Glynt ausprobiert, um meine Haare zu pflegen. Da ich sehr gute Erfahrungen mit ihnen gemacht hatte, habe ich mich für das Glynt Revital Regain 3 entschieden. \r\nAuch wenn es sich hierbei um ein Pflegeprodukt handelt, welches sich besonders an Frauen richtet, kann ich es sehr für Männer empfehlen, da ich bisher kein vergleichbares Produkt für Männer gefunden habe. \r\n\r\nDadurch, dass dieses Shampoo sehr viele Öle enthält, sorgt es dafür, dass es für sehr gesund glänzende Haare sorgt. Des Weiteren macht es die Haare sehr geschmeidig, wodurch sie sich sehr weich anfühlen. Dadurch, dass sie so weich sind, lassen sie sich wunderbar durchkämmen und verknoten nicht. Bereits nach einer einzigen Woche der Benutzung habe ich deutliche Verbesserungen meiner Haare bemerkt. Zuvor waren meine haare immer sehr strohig, was sich mit diesem Shampoo jedoch sehr schön verbessert hat. Mein einziger wirklicher Kritikpunkt an diesem Shampoo ist, dass das Shampoo mit einem Preis von knapp 27€ ziemlich teuer ist. Dafür erhält man jedoch auch einen ganzen Liter, welcher besonders als Mann wirklich sehr langsam aufgebraucht wird. Als Frau sollte man es sich allerdings überlegen, ob einem die Haarpflege so viel wert ist. Ansonsten kann ich dieses Produkt jedoch durchaus weiterempfehlen, da es die Haare sehr schön pflegt, wodurch ein super Look entsteht.",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
     }, {
-        "@context": "http://schema.org/",
-        "@type": "Product",
-        "name": "GLYNT REVITAL Regain Shampoo 100ml",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "bestRating": "5.00",
-            "worstRating": "1.00",
-            "ratingValue": "5.00",
-            "reviewCount": "7",
-            "ratingCount": "7"
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "Rainboweinhorn"
         },
-        "review": [{
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Shampoo 100ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-09-25",
-            "reviewBody": "Top, die Shampoos sind etwas teuer",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Shampoo 100ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-08-31",
-            "reviewBody": "Die Haare fühlen sich nach der Wäsche super weich und schön an.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Shampoo 100ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-08-12",
-            "reviewBody": "Pflegt sehr gut, ergiebig, keine Nachteile beobachtet",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Shampoo 100ml",
-            "author": {
-                "@type": "Person",
-                "name": "Christiane S."
-            },
-            "datePublished": "2021-07-06",
-            "reviewBody": "Für meine trockenen Haare perfekt",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Shampoo 100ml",
-            "author": {
-                "@type": "Person",
-                "name": "Nicole T."
-            },
-            "datePublished": "2021-06-12",
-            "reviewBody": "Angenehmes und pflegendes Shampoo",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Shampoo 100ml",
-            "author": {
-                "@type": "Person",
-                "name": "Brigitte M."
-            },
-            "datePublished": "2021-05-12",
-            "reviewBody": "Immer wieder angenehm und frisch",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }, {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Regain Shampoo 100ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-04-28",
-            "reviewBody": "Super Pflege und toller Geruch.  Top!",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }],
-        "image": "http://static.trustedshops.com/img/brand/e-trustedshops_black_145-60.png"
+        "datePublished": "2016-05-21",
+        "name": "Tschüss Spliss und Haarbruch - Hallo volles Haar!",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
+        },
+        "reviewBody": "Noch vor einem halben Jahr habe ich meine eigentlich braun-schwarzen Haare hellblond gefärbt, was die Struktur dieser auf Dauer natürlich volkommen zerstörte. Vor einigen Wochen habe ich wieder auf meine Naturhaarfarbe umgestellt und meine Frisur auf Schulterlänge schneiden lassen.\r\n\r\nDoch natürlich waren meine Haare immernoch kaputt. Weil ich das schrecklich fand, wie zerbrochen und spröde sie aussahen, griff ich zum Glynt Revital Regain 3 in der 1000 ml Größe.\r\n\r\nDas Auftragen stellte sich für mich recht einfach dar, ich benutzte das Produkt wie es auf der Rückseite stand nach dem Haarewaschen. Die cremige, sehr viskose Substanz ließ sich von mi schnell und ohne Probleme in meinem dünnen Haar verteilen, welches deutlich unter Spliss und Haarbruch litt.\r\n\r\nDie ersten Tage habe ich gar keinen Unterschied gemerkt, wenn ich durch mene Haare kämmte, fielen wie zuvor Bruchstücke der Keratinfasern herab. Doch schon nach etwa einer Woche tat sich etwas! Meine Haare glänzten von Tag zu Tag mehr, wie ich feststellen konnte! Auch habe ich nach Spliss gesucht und fast keinen mehr gefunden, nur noch ganz vereinzelt und wenig!\r\n\r\nIch war vom Ergebnis wirklich beeindruckt, zumal ich schon fast nicht mehr damit gerechnet hatte ! Hier muss man also laut meiner Erfahrung etwas Geduld mitbringen.\r\n\r\nHeute ist meine Frisur fasr wie früher, finde ich, ich kann keinen Unterschied erkennen. Meine vorher dünnen und struppeligen Haare, die zu allen Seiten abstanden sehen nun für mich gepflegt aus, sie sind glatt, glänzen und wenn ich einen Zopf binden möchte, habe ich auch endlich wieder etwas mehr in der Hand!\r\n\r\nZudem möchte ich noch kurz benennen, dass das Produkt für mich wirklich sehr gut riecht. Da ich die Creme nicht aus dem Haar spüle, sondern einwirken lasse, duftet meine Frisur den ganzen Tag nach Sommer und Frühling. Ich weiß nicht genau, welche Aromen verwendet worden sind, jedoch kann ich meiner Ansicht nach Rose ganz dominant herausschnuppern.\r\n\r\nIch bin hin und weg, wenn ich das Ergebnis betrachte und kann daher das Glynt Revital Regain 3 mit sehr guter Erfahrung weiter empfehlen!",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
     }, {
-        "@context": "http://schema.org/",
-        "@type": "Product",
-        "name": "GLYNT REVITAL Mask 200ml",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "bestRating": "5.00",
-            "worstRating": "1.00",
-            "ratingValue": "5.00",
-            "reviewCount": "1",
-            "ratingCount": "1"
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "Minkiboo"
         },
-        "review": [{
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "GLYNT REVITAL Mask 200ml",
-            "author": {
-                "@type": "Person",
-                "name": "unknown"
-            },
-            "datePublished": "2021-11-07",
-            "reviewBody": "",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Trusted Shops GmbH"
-            }
-        }],
-        "image": "http://static.trustedshops.com/img/brand/e-trustedshops_black_145-60.png"
-    }
-]
+        "datePublished": "2016-05-10",
+        "name": "Repariert kaputtes und coloriertes Haar",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
+        },
+        "reviewBody": "Meine Haare sind super strapaziert von ständigem Färben, Föhnen, Glätten, Stylen... Und da habe ich unbedingt nach etwas gesucht, was meine Haare pflegt und gleichzeitig etwas gesünder macht, ohne dass ich die kaputten Spitzen unmittelbar abschneiden lassen muss.\r\n\r\nDer Friseur meines Vertrauens hat mir empfohlen, ein Produkt aus der Glynt Revital Serie auszuprobieren und ich habe mir direkt Shampoo, Spülung und Haarkur geholt und bin wirklich absolut begeistert.\r\n\r\nIn diesem Zusammenhang möchte ich gerne sagen, dass ich vor allem von dem Shampoo Regain begeistert bin, weil es mein Haar geradezu revolutioniert hat! Ich habe selten so etwas erlebt, denn meistens bewirkt Shampoo bei mir nicht wirklich etwas und nur Spülung oder Kur sorgen für den besonderen Effekt. Doch in diesem Fall ist es anders.\r\n\r\nDas dickflüssige, zähe Shampoo lässt sich leicht mit dem Fingern im Haar verteilen. Auch wenn es nicht aufschäumt, soll man nicht zu viel benutzen, da das Haar ansonsten schnell zu fettig wird und Schuppen entstehen können.\r\n\r\nIch habe dieses Shampoo nun seit etwa sechs Monaten und habe nun die 10000 ml Packung gekauft, weil diese mit knapp 28 Euro viel günstiger ist im Preis-Leistungs-Verhältnis als 4 x 250 ml Flaschen für 15 Euro zu kaufen.\r\n\r\nAus den gegebenen Gründen bin ich vollständig begeistert von dem Shampoo, welches meine Haare geschmeidig und glänzend macht und langfristig gesunder erscheinen lässt. Die Farbe verblasst nicht nur mein coloriertes Haar verliert auch nach 10 oder 15 Haarwäschen nicht an Glanz und Brillanz.",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
+    }, {
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "JackyWMfan"
+        },
+        "datePublished": "2016-05-08",
+        "name": "Vor allem für coloriertes und geschädigtes Haar ",
+        "publisher": {
+            "@type": "Organization",
+            "name": "billiger.de"
+        },
+        "reviewBody": "Ich habe dieses Shampoo von Glynt Revital im Internet entdeckt und fand dieses Produkt direkt ansprechend. Ich habe es mir bestellt, nachdem ich mir einige Rezensionen durchgelesen habe. Es ist besonders für geschädigtes, dünnes und coloriertes Haar geeignet. Die Farbe von coloriertem Haar soll besser aufgefasst und umsiegelt werden. Als ich das Shampoo auf meinen betroffenen Haaren, die auch sehr dünn und auch coloriert sind, aufgetragen habe, hat man schon nach der ersten Haarwäsche gesehen, dass sie mehr glänzen und sogar die Farbe wieder etwas verstärkt wurde. Hierbei ist es egal, ob man helle oder dunkle Haare hat. Der Preis für dieses Produkt ist für manche vielleicht etwas hoch, da es kein Drogeriepreis ist. Ich jedoch finde für 1000ml Produkt ist der Preis gerechtfertigt und das Preis-Leistungsverhältnis stimmt, die Qualität stimmt hierbei nämlich auch. Ich würde es mir daher immer wieder kaufen. Es hält sehr lange und bei mir sogar länger als einige Drogerieprodukte, bei denen meistens sogar weniger als die Hälfte wie im Gegensatz zum Glynt Shampoo ist. Die Verpackung des Shampoos ist auch ansprechend und schick, vielleicht ein wenig unscheinbar. Ich habe nichts Negatives dazu zu sagen, tolles Produkt.",
+        "reviewRating": {
+            "@type": "Rating",
+            "bestRating": 5,
+            "ratingValue": 5,
+            "worstRating": 1
+        }
+    }],
+    "correctUrl": "https://webcache.googleusercontent.com/search?q=cache:duf9kxFyhUIJ:https://www.billiger.de/baseproducts/31648-glynt-revital-regain-03+&cd=8&hl=de&ct=clnk&gl=de",
+    "baseUrl": "https://webcache.googleusercontent.com"
+}]
