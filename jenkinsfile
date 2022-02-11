@@ -3,6 +3,6 @@ node {
         checkout scm
     }
     stage('Start docker') {
-        sh "docker build -t nodejs:latest ."
+        sh "docker build -t nodejs:latest ." 
     }
 }
