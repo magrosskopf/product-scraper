@@ -3,6 +3,6 @@ node {
         checkout scm
     }
     stage('Start docker') {
-        sh "docker.build scanner . && docker run scanner"
+        sh "docker build scanner . && docker run scanner"
     }
 }    
