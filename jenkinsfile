@@ -3,6 +3,6 @@ node {
         checkout scm
     }
     stage('Start docker') {
-        sh "docker build -t scanner . && docker run scanner"
+        sh "docker build -t scanner . && docker run --name scanner -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock scanner"
     }
 }    
