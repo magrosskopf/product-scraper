@@ -5,4 +5,4 @@ node {
     stage('Start docker') {
         sh "docker build -t scanner . && docker run scanner -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock"
     }
-}    
+}     
