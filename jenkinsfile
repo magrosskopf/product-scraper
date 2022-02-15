@@ -3,6 +3,6 @@ node {
         checkout scm
     }
     stage('Start docker') {
-        sh "sudo docker build ."
+        sh "docker build ."
     }
 }    
