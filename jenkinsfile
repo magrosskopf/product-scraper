@@ -3,6 +3,6 @@ node {
         checkout scm
     }
     stage('Start docker') {
-        sh "docker build . -t getintodevops-hellonode:1 && docker run -p 3000:3000 getintodevops-hellonode:1"
+        sh "docker build . -t getintodevops-hellonode:1 && docker run -p 8000:8000 getintodevops-hellonode:1"
     }
 }     
