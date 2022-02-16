@@ -8,7 +8,7 @@ COPY package*.json ./
 
 USER node
 
-RUN npm install
+RUN sudo npm install
 
 COPY --chown=node:node . .
 
