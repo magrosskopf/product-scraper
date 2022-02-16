@@ -1,11 +1,17 @@
-FROM node:16
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+FROM node:14-alpine as base
 
-WORKDIR /home/node/app
+WORKDIR /src
+COPY package*.json /
+EXPOSE 3000
 
-COPY package*.json ./
+FROM base as production
+ENV NODE_ENV=production
+RUN npm ci
+COPY . /
+CMD ["node", "bin/www"]
 
-RUN npm install
-
-EXPOSE 8080
-CMD [ "node", "server.js" ]
+FROM base as dev
+ENV NODE_ENV=development
+RUN npm install -g nodemon && npm install
+COPY . /
+CMD ["nodemon", "bin/www"]

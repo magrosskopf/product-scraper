@@ -3,6 +3,6 @@ node {
         checkout scm
     }
     stage('Start docker') {
-        sh "sudo docker-compose build && docker-compose up -d"
+        sh "docker-compose build && docker-compose up -d"
     }
 }  
