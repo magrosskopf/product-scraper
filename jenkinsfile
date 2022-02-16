@@ -3,6 +3,6 @@ node {
         checkout scm
     }
     stage('Start docker') {
-        sh "docker build . -t getintodevops-hellonode:1 && docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkinsci/jenkins:lts getintodevops-hellonode:1"
+        sh "docker build . -t getintodevops-hellonode:1 && docker run -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkinsci/jenkins:lts getintodevops-hellonode:1"
     }
 }     
