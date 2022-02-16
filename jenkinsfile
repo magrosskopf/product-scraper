@@ -5,4 +5,4 @@ node {
     stage('Start docker') {
         sh "docker-compose build && docker-compose up -d"
     }
-} 
+}  
