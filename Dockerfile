@@ -6,8 +6,6 @@ WORKDIR /home/node/app
 
 COPY package*.json ./
 
-USER node
-
 RUN sudo npm install
 
 COPY --chown=node:node . .
