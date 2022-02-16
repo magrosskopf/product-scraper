@@ -6,6 +6,7 @@ EXPOSE 3000
 
 FROM base as production
 ENV NODE_ENV=production
+RUN npm install docker-ci
 RUN npm ci
 COPY . /
 CMD ["node", "bin/www"]
