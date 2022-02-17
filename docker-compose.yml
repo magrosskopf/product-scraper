@@ -1,5 +1,27 @@
 version: '3.8'
 services:
+  mongodata:
+    image: mongo
+    volumes:
+      - /data/db
+    entrypoint: /bin/bash
+  mongo:
+    image: mongo
+    depends_on:
+      - mongodata
+    volumes_from:
+      - mongodata
+    ports:
+      - 27000:27017
+  mongo-express:
+    image: mongo-express
+    depends_on:
+      - mongo
+    ports:
+      - "8081:8081"
+    environment:
+      - ME_CONFIG_BASICAUTH_USERNAME=${ME_USERNAME}
+      - ME_CONFIG_BASICAUTH_PASSWORD=${ME_PASSWORD}
   web:
     build:
       context: ./
@@ -13,3 +35,5 @@ services:
     environment:
       NODE_ENV: development
       DEBUG: nodejs-docker-express:*
+    links:
+      - mongo
