@@ -1,7 +1,7 @@
 FROM node:14-alpine as base
 
 WORKDIR /src
-COPY package*.json /
+COPY package*.json /src
 EXPOSE 3000
 
 FROM base as production
