@@ -23,9 +23,7 @@ services:
       - ME_CONFIG_BASICAUTH_USERNAME=${ME_USERNAME}
       - ME_CONFIG_BASICAUTH_PASSWORD=${ME_PASSWORD}
   web:
-    build:
-      context: ./
-      target: dev
+    build: ./
     volumes:
       - .:/src
       - /src/node_modules
