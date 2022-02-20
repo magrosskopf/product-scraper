@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // 0 0 */3 * * *
 
-const job = new CronJob('0 */1 * * * *', function () {
+const job = new CronJob('0 */5 * * * *', function () {
   console.log('You will see this message every second');
   scraper.crawlAndSave("glynt+revital+regain+shot");
 }, null, true, 'America/Los_Angeles');
