@@ -8,7 +8,7 @@ COPY --chown=node:node ./package-lock.json ./package-lock.json
 RUN npm install --production
 COPY --chown=node:node . .
 EXPOSE 3000
-CMD ["nodemon", "bin/www"]
+CMD ["node", "bin/www"]
 
 #FROM base as production
 #ENV NODE_ENV=production
