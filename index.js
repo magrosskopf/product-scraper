@@ -11,14 +11,14 @@ const websites = [];
     let googleContent = await getWebsiteContent('https://www.google.de/search?q=glynt+revital+regain+shot');
     let anchors = getAnchors(googleContent);
     let structuredData = []
-    anchors.forEach(async url => {
-        let websiteContent = await getWebsiteContent(url);
+    for (const url1 of anchors) {
+        let websiteContent = await getWebsiteContent(url1);
         const $ = cheerio.load(websiteContent);
         $("script").each(async function () {
             if (isStructuredData($(this).attr("type"))) {
                 let tempJson = JSON.parse($(this).html());
                 if (isProduct(tempJson["@type"])) {
-                    tempJson = await transformJson(tempJson, url);
+                    tempJson = await transformJson(tempJson, url1);
                     structuredData.push(JSON.stringify(tempJson));
                 }
             }
@@ -26,8 +26,8 @@ const websites = [];
         fs.writeFile("sd.json", structuredData, (err) => {
            console.log("err", err);
         });
-    })
-   
+    }
+
 
 })();
 

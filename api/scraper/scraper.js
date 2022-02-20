@@ -1,5 +1,6 @@
-const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
+const puppeteer = require('puppeteer');
+
 const url = require('url');
 const fs = require('fs');
 let browser = null;
@@ -31,7 +32,33 @@ exports.crawl = async function (searchTerm, res, pages) {
         });
         
     })
-   
+};
+
+exports.crawlAndSave = async function (searchTerm) {
+    let counter = 0
+    browser = await puppeteer.launch();
+    let googleContent = await getWebsiteContent(`https://www.google.de/search?q=${searchTerm}`);
+    let anchors = getAnchors(googleContent);
+    let structuredData = []
+    anchors.forEach(async (url) => {
+        let websiteContent = await getWebsiteContent(url);
+        const $ = cheerio.load(websiteContent);
+        $("script").each(async function () {
+            if (isStructuredData($(this))) {
+                let tempJson = JSON.parse($(this).html());
+                if (isProduct(tempJson)) {
+                    tempJson = await transformJson(tempJson, url);
+                    structuredData.push(JSON.stringify(tempJson));
+                    if (counter == 2) {
+                        // save to mongo
+                    }
+                    console.log(counter);
+                    counter++
+                }
+            }
+        });
+
+    })
 };
 
 function transformJson(data, url) {
