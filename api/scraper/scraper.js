@@ -38,7 +38,9 @@ exports.crawl = async function (searchTerm, res, pages) {
 
 exports.crawlAndSave = async function (searchTerm) {
     let counter = 0
-    browser = await puppeteer.launch();
+    browser = await puppeteer.launch({
+        executablePath: '/usr/bin/chromium-browser'
+    });
     let googleContent = await getWebsiteContent(`https://www.google.de/search?q=${searchTerm}`);
     let anchors = getAnchors(googleContent);
     let structuredData = []
