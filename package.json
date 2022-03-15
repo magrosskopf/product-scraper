@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "start:dev": "nodemon ./bin/www"
+    "start": "node www",
+    "start:dev": "nodemon www",
+    "test": "mocha"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
@@ -13,6 +14,9 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "^1.8.1",
+    "mocha": "^9.2.2",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.4",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11",
     "puppeteer": "^13.3.2"

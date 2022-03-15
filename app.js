@@ -6,8 +6,9 @@ const logger = require('morgan');
 const CronJob = require('cron').CronJob;
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const scraper = require('./api/scraper/scraper')
-
+const scraper = require('./scraper/scraper')
+const everyFourHours = '0 */4 * * *';
+const everyMinute = '0 */1 * * * *'
 const app = express();
 
 // view engine setup
@@ -19,18 +20,18 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
-// 0 0 */3 * * *
-
-const job = new CronJob('0 */5 * * * *', function () {
-  console.log('You will see this message every second');
-  scraper.crawlAndSave("glynt+revital+regain+shot");
-}, null, true, 'America/Los_Angeles');
-job.start();
+scraper.start()
+/*
+const job = new CronJob(everyMinute, async function () {
+  await scraper.start()
+ }, null, true, 'America/Los_Angeles');
+ job.start();
+*/
 
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
