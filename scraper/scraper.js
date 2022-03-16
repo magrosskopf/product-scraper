@@ -20,7 +20,7 @@ exports.start = async function() {
 async function crawlAndSave (searchTerms) {
     let structuredData = []
     for (const searchTerm of searchTerms) {
-        let googleContent = await browser.getWebsiteContent(`https://www.google.de/search?q=${searchTerm}`);
+        let googleContent = await browser.getWebsiteContent(`https://search.brave.com//search?q=${searchTerm}`);
         let anchors = getAnchors(googleContent);
         for (const url of anchors) {
             const $ = cheerio.load(await browser.getWebsiteContent(url));
