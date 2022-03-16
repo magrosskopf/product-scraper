@@ -8,19 +8,25 @@ const puppeteerWrapper = require("./PuppeteerWrapper/puppeteerWrapper");
 const browser = new puppeteerWrapper();
 const db = new database();
 
+const serpApi = require("./SerpApi/serp")
+const serp = new serpApi();
+
 exports.start = async function() {
     await browser.launch();
     const searchTerms = getSearchTerms();
     const crawledData = await crawlAndSave(searchTerms);
+    /*
     const products = productFactory.dataToProducts(crawledData);
     await db.connect();
     await db.saveData(products);
+
+     */
 }
 
 async function crawlAndSave (searchTerms) {
     let structuredData = []
     for (const searchTerm of searchTerms) {
-        let googleContent = await browser.getWebsiteContent(`https://search.brave.com//search?q=${searchTerm}`);
+        let googleContent = await serp.getResults(searchTerm);
         let anchors = getAnchors(googleContent);
         for (const url of anchors) {
             const $ = cheerio.load(await browser.getWebsiteContent(url));
@@ -30,7 +36,6 @@ async function crawlAndSave (searchTerms) {
                 structuredData.push(scriptElement);
             });
         }
-    }
     return structuredData;
 }
 
@@ -69,7 +74,6 @@ function isProduct(data){
 
 
 function getAnchors(content) {
-    console.log("content: ", content)
     const $ = cheerio.load(content);
     let anchors = [];
      $('a').each(function() {
@@ -92,7 +96,7 @@ function getSearchTerms() {
          */
     ]
 }
-
+/*
 exports.crawl = async function (searchTerm, res, pages) {
     let counter = 0
     browser = await puppeteer.launch(options);
@@ -120,4 +124,4 @@ exports.crawl = async function (searchTerm, res, pages) {
 
     }
 };
-
+*/

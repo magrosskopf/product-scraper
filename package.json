@@ -13,6 +13,7 @@
     "cron": "^1.8.2",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "google-search-results-nodejs": "^2.1.0",
     "http-errors": "^1.8.1",
     "mocha": "^9.2.2",
     "mongodb": "^4.4.0",
