@@ -21,8 +21,9 @@ async function crawlAndSave (searchTerms) {
     let structuredData = []
     for (const searchTerm of searchTerms) {
         let googleContent = await browser.getWebsiteContent(`https://www.google.de/search?q=${searchTerm}`);
+        console.log("googleContent: ", googleContent.length)
+
         let anchors = getAnchors(googleContent);
-        console.log("anchros: ", anchors.length)
         for (const url of anchors) {
             const $ = cheerio.load(await browser.getWebsiteContent(url));
             await $("script").each(async index=> {
