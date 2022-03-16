@@ -2,9 +2,7 @@ node {
     stage('Checkout scm') {
         checkout scm
     }
-    stage('Test') {
-             sh 'npm test'
-        }
+
     stage('Start docker') {
         sh "docker-compose build && docker-compose up -d"
     }
