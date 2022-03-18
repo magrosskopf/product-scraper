@@ -1,42 +1,53 @@
 'use strict'
 const cheerio = require('cheerio');
-const puppeteer = require('puppeteer');
 const database = require('../database/database')
-const productFactory = require("./ProductFactory/productFactory")
 const puppeteerWrapper = require("./PuppeteerWrapper/puppeteerWrapper");
-
+const helpers = require("./helpers/helpers")
 const browser = new puppeteerWrapper();
+
+
 const db = new database();
 
 const serpApi = require("./SerpApi/serp")
 const serp = new serpApi();
 
 exports.start = async function() {
-    await browser.launch();
-    const searchTerms = getSearchTerms();
+    await browser.launch()
+    const searchTerms = helpers.getSearchTerms();
     const crawledData = await crawlAndSave(searchTerms);
+    console.log(crawledData)
     /*
     const products = productFactory.dataToProducts(crawledData);
+    */
     await db.connect();
-    await db.saveData(products);
+    await db.saveData(crawledData);
 
-     */
+
 }
 
+
+
+
 async function crawlAndSave (searchTerms) {
-    let structuredData = []
-    for (const searchTerm of searchTerms) {
-        let googleContent = await serp.getResults(searchTerm);
-        let anchors = getAnchors(googleContent);
-        for (const url of anchors) {
-            const $ = cheerio.load(await browser.getWebsiteContent(url));
-            await $("script").each(async index=> {
-                let scriptElement = await getStructuredData($("script").eq(index));
-                if (!scriptElement) return
-                structuredData.push(scriptElement);
-            });
-        }
-    return structuredData;
+    let serpData = await serp.getResultsForSearchTerms(searchTerms)
+    serpData = await addWebsiteData(serpData)
+    console.log(serpData)
+    return serpData;
+}
+
+
+ async function addWebsiteData(serpData) {
+    for (const product of serpData) {
+        product.websiteData = []
+        const $ = cheerio.load(await browser.getWebsiteContent(product.link));
+        await $("script").each(async index=> {
+            let scriptElement = await getStructuredData($("script").eq(index));
+            if (!scriptElement) return
+
+            product.websiteData.push(scriptElement);
+        });
+    }
+    return serpData
 }
 
 
@@ -44,6 +55,14 @@ async function crawlAndSave (searchTerms) {
 async function getStructuredData(el) {
         if (!isStructuredData(el)) return
         let tempJson = JSON.parse(el.html());
+        if (tempJson['@graph']){
+            tempJson['@graph'].forEach(obj => {
+                if (obj["@type"].toLowerCase() == "product") {
+                    console.log(obj["@type"])
+                    return tempJson = obj;
+                }
+            })
+        }
         if (!isProduct(tempJson)) return
         // tempJson = await transformJson(tempJson);
         // console.log("data", JSON.stringify(tempJson));
@@ -73,29 +92,8 @@ function isProduct(data){
 
 
 
-function getAnchors(content) {
-    const $ = cheerio.load(content);
-    let anchors = [];
-     $('a').each(function() {
-         let ref = $(this).attr("href");
-         if (anchors.indexOf(ref) == -1 && ref) {
-            if (ref.substring(0,4).toLowerCase() != "http") return
-            anchors.push(ref)
-         }
-    })
-    return anchors;
-}
 
-function getSearchTerms() {
-    return [
-        "glynt+revital+shot"
-        /* "glynt+hydro+shot",
-        "glynt+revital+shampoo",
-        "glynt+hydro+shampoo"
 
-         */
-    ]
-}
 /*
 exports.crawl = async function (searchTerm, res, pages) {
     let counter = 0

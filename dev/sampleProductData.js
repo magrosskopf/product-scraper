@@ -1,7 +1,6 @@
-{
-  "data": [
+exports.products = [
     {
-      "@context": "https://schema.org",
+      "context": "https://schema.org",
       "@type": "Product",
       "name": "GLYNT REVITAL Farbglanz &amp; seidiger Griff Set",
       "brand": "GLYNT",
@@ -214,4 +213,3 @@
       "image": "http://static.trustedshops.com/img/brand/e-trustedshops_black_145-60.png"
     }
   ]
-}

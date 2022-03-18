@@ -20,13 +20,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-scraper.start()
-/*
+
+
 const job = new CronJob(everyMinute, async function () {
   await scraper.start()
  }, null, true, 'America/Los_Angeles');
  job.start();
-*/
+
 
 
 app.use('/', indexRouter);
