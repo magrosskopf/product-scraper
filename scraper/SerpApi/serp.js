@@ -9,6 +9,7 @@ class Serp {
         this.search = new SerpApi.GoogleSearch("178f65ac674096f41b500e9b93a800893ab0f4c8d7682578f21817426bbf93b5");
     }
 
+
     async getResultsForSearchTerms(searchTerms) {
         let serpData = []
         for (const searchTerm of searchTerms) {
