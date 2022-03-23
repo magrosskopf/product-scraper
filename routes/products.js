@@ -4,7 +4,7 @@ const router = express.Router();
 const scraper = require('../scraper/scraper')
 
 router.post('/', async (req, res, next) => {
-    console.log(req.body)
+    console.log(req)
     if(!req.body.terms) return res.status(400).send("no terms provided")
     let terms = req.body.terms.split(",")
     let data = await scraper.getData(terms)
