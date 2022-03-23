@@ -10,7 +10,10 @@ const Product = mongoose.model('Product',{
     cached_page_link: mongoose.Schema.Types.String,
     searchTerm: mongoose.Schema.Types.String,
     lookupDate: mongoose.Schema.Types.Number,
-    websiteData: mongoose.Schema.Types.Array
+    aggregateRating: mongoose.Schema.Types.Mixed,
+    offers: mongoose.Schema.Types.Mixed,
+    sku: mongoose.Schema.Types.String,
+    review: mongoose.Schema.Types.Mixed
 });
 
 /*

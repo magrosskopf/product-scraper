@@ -6,6 +6,7 @@ const logger = require('morgan');
 const CronJob = require('cron').CronJob;
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const productsRouter = require('./routes/products');
 const scraper = require('./scraper/scraper')
 const everyFourHours = '0 */4 * * *';
 const everyMinute = '0 */1 * * * *'
@@ -14,7 +15,6 @@ const app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -22,8 +22,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-const job = new CronJob(everyMinute, async function () {
-  await scraper.start()
+const job = new CronJob(everyFourHours, async function () {
+     await scraper.start()
  }, null, true, 'America/Los_Angeles');
  job.start();
 
@@ -31,6 +31,7 @@ const job = new CronJob(everyMinute, async function () {
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/products', productsRouter);
 
 
 // catch 404 and forward to error handler

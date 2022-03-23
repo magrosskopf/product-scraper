@@ -15,14 +15,14 @@ exports.start = async function() {
     await browser.launch()
     const searchTerms = helpers.getSearchTerms();
     const crawledData = await crawlAndSave(searchTerms);
-    console.log(crawledData)
-    /*
-    const products = productFactory.dataToProducts(crawledData);
-    */
     await db.connect();
     await db.saveData(crawledData);
+}
 
-
+exports.getData = async function(terms) {
+    await browser.launch()
+    const crawledData = await crawlAndSave(terms);
+    return crawledData;
 }
 
 
@@ -38,17 +38,22 @@ async function crawlAndSave (searchTerms) {
 
  async function addWebsiteData(serpData) {
     for (const product of serpData) {
-        product.websiteData = []
         const $ = cheerio.load(await browser.getWebsiteContent(product.link));
         await $("script").each(async index=> {
             let scriptElement = await getStructuredData($("script").eq(index));
             if (!scriptElement) return
+            let jsonScriptElement = JSON.parse(scriptElement)
+            if(jsonScriptElement.aggregateRating) product.aggregateRating = jsonScriptElement.aggregateRating
+            if(jsonScriptElement.offers) product.offers = jsonScriptElement.offers
+            if(jsonScriptElement.sku) product.sku = jsonScriptElement.sku
+            product.lookupDate = Date.now()
+            if(jsonScriptElement.review) product.review = jsonScriptElement.review
 
-            product.websiteData.push(scriptElement);
         });
     }
     return serpData
 }
+
 
 
 
