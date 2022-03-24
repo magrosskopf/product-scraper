@@ -27,7 +27,6 @@ services:
    # environment:
     #  - ME_CONFIG_BASICAUTH_USERNAME=${ME_USERNAME}
     #  - ME_CONFIG_BASICAUTH_PASSWORD=${ME_PASSWORD}
-
   web:
     build: ./
     #depends_on:
