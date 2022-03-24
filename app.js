@@ -1,17 +1,36 @@
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
+const swaggerJsDoc = require("swagger-jsdoc");
+const swaggerUi = require("swagger-ui-express");
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const CronJob = require('cron').CronJob;
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
-const scraper = require('./scraper/scraper')
+const scraper = require('./scraper/scraper');
 const everyFourHours = '0 */4 * * *';
-const everyMinute = '0 */1 * * * *'
-const app = express();
+const everyMinute = '0 */1 * * * *';
 
+const swaggerOptions = {
+    swaggerDefinition: {
+        info: {
+            version: "1.0.0",
+            title: "Product Data API",
+            description: "Product Data API Information",
+            contact: {
+                name: "Amazing Developer"
+            },
+            servers: ["http://localhost:5000", "http://vps-a7db4c18.vps.ovh.net:3000"]
+        }
+    },
+    apis: ['./routes/*.js']
+};
+
+const app = express();
+const swaggerDocs = swaggerJsDoc(swaggerOptions);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
