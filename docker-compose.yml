@@ -9,8 +9,8 @@ services:
     image: mongo
     container_name: mongo
     environment:
-      MONGO_INITDB_ROOT_USERNAME: marius_admin
-      MONGO_INITDB_ROOT_PASSWORD: Fc%0g\vm?AV.7
+      MONGO_INITDB_ROOT_USERNAME: ${username}
+      MONGO_INITDB_ROOT_PASSWORD: ${pwd}
     #depends_on:
     #  - mongodata
     #volumes_from:
