@@ -28,8 +28,33 @@ const Product = mongoose.model('Product',{
     searchTerm: 'glynt+revital+shot',
     lookupDate: 1647642603936,
     websiteData: [
-      '{"@context":"https://schema.org/","@type":"Product","@id":"https://salon-grosskopf.de/produkt/revital-regain-shot#product","name":"REVITAL Shot","url":"https://salon-grosskopf.de/produkt/revital-regain-shot","description":"Hochkonzentrierter Pflegeschaum. Verleiht Geschmeidigkeit und gesunden Glanz. Verbleibt im Haar. Ideal zur Anwendung während des Haarschnittes.","image":"https://salon-grosskopf.de/wp-content/uploads/2020/04/GLYNT_12051_REVITAL-Shot_50ml_RGB_Web-scaled.jpeg","sku":538,"offers":[{"@type":"Offer","price":"9.90","priceValidUntil":"2023-12-31","priceSpecification":{"price":"9.90","priceCurrency":"EUR","valueAddedTaxIncluded":"true"},"priceCurrency":"EUR","availability":"http://schema.org/InStock","url":"https://salon-grosskopf.de/produkt/revital-regain-shot","seller":{"@type":"Organization","name":"Salon Großkopf","url":"https://salon-grosskopf.de"}}]}'
-    ]
+      ''
+    ],
  */
+/*
+{
+    "@context":"https://schema.org/",
+    "@type":"Product",
+    "@id":"https://salon-grosskopf.de/produkt/revital-regain-shot#product",
+    "name":"REVITAL Shot","url":"https://salon-grosskopf.de/produkt/revital-regain-shot",
+    "description":"Hochkonzentrierter Pflegeschaum. Verleiht Geschmeidigkeit und gesunden Glanz. Verbleibt im Haar. Ideal zur Anwendung während des Haarschnittes.",
+    "image":"https://salon-grosskopf.de/wp-content/uploads/2020/04/GLYNT_12051_REVITAL-Shot_50ml_RGB_Web-scaled.jpeg",
+    "sku":538,
+    "offers":[
+        {
+            "@type":"Offer","price":"9.90",
+            "priceValidUntil":"2023-12-31",
+            "priceSpecification":{"price":"9.90","priceCurrency":"EUR","valueAddedTaxIncluded":"true"},
+            "priceCurrency":"EUR",
+            "availability":"http://schema.org/InStock","url":"https://salon-grosskopf.de/produkt/revital-regain-shot",
+            "seller":{
+                "@type":"Organization",
+                "name":"Salon Großkopf",
+                "url":"https://salon-grosskopf.de"
+            }
+        }
+    ]
+} */
+
 
 module.exports = Product;

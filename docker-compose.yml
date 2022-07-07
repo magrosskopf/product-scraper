@@ -8,9 +8,9 @@ services:
   mongo:
     image: mongo
     container_name: mongo
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: ${username}
-      MONGO_INITDB_ROOT_PASSWORD: ${pwd}
+    #environment:
+      #MONGO_INITDB_ROOT_USERNAME: ${username}
+      #MONGO_INITDB_ROOT_PASSWORD: ${pwd}
     #depends_on:
     #  - mongodata
     #volumes_from:
@@ -18,24 +18,18 @@ services:
     restart: always
     ports:
       - 27017:27017
- # mongo-express:
-  #  image: mongo-express
-   # depends_on:
-    #  - mongo
-   # ports:
-    #  - "8081:8081"
-   # environment:
-    #  - ME_CONFIG_BASICAUTH_USERNAME=${ME_USERNAME}
-    #  - ME_CONFIG_BASICAUTH_PASSWORD=${ME_PASSWORD}
+  mongo-express:
+    image: mongo-express
+    depends_on:
+      - mongo
+    ports:
+      - "8081:8081"
+
 
   web:
     build: ./
-    #depends_on:
-      #- mongo-express
     volumes:
-      - .:/src
-      - /src/node_modules
-    command: npm run start
+      - ./:/home/node/
     ports:
       - "3000:3000"
     environment:

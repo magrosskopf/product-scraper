@@ -40,9 +40,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
+await scraper.start()
 const job = new CronJob(everyFourHours, async function () {
-     await scraper.start()
+
  }, null, true, 'America/Los_Angeles');
  job.start();
 

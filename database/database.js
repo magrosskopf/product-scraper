@@ -1,9 +1,12 @@
 const mongoose = require("mongoose");
 const Product = require("../model/product/productModel")
+const dotenv = require("dotenv")
+
+dotenv.config()
 
 class Database {
     constructor() {
-        this.mongoDB = 'mongodb://mongo:27017/productdata';
+        this.mongoDB = `mongodb://${process.env.username}:${process.env.pwd}@mongo:27017/productdata`;
     }
 
      async connect() {
