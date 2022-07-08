@@ -2,6 +2,9 @@
   "name": "nodejs-docker-express",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node www",
     "start:dev": "nodemon www",
@@ -21,7 +24,7 @@
     "mongoose": "^6.2.4",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11",
-    "puppeteer": "15.3.0",
+    "puppeteer": "^13.3.2",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.3.0"
   }
