@@ -39,10 +39,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
-await scraper.start()
+scraper.start()
 const job = new CronJob(everyFourHours, async function () {
-
+    console.log("-------Start Scraper-------")
+    await scraper.start()
  }, null, true, 'America/Los_Angeles');
  job.start();
 
