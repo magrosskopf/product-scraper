@@ -31,6 +31,7 @@ const websites = [];
 
 })();
 
+
 function transformJson(data, url) {
     data.correctUrl = url;
     data.baseUrl = new URL(url).origin
