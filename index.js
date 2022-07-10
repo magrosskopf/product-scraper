@@ -43,8 +43,6 @@ function isStructuredData(that) {
     return that == "application/ld+json"
 }
 
-
-
 function isProduct(data){
    return data.toLowerCase() == "product"
 }
