@@ -38,6 +38,7 @@ function transformJson(data, url) {
     return data
 }
 
+
 function isStructuredData(that) {
     return that == "application/ld+json"
 }
