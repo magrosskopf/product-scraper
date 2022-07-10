@@ -4,6 +4,6 @@ node {
     }
 
     stage('Start docker') {
-        sh "docker-compose build && docker-compose up"
+        sh "/usr/local/bin/docker-compose build && /usr/local/bin/docker-compose up"
     }
 }
