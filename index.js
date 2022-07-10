@@ -45,7 +45,6 @@ function isProduct(data){
    return data.toLowerCase() == "product"
 }
 
-
 async function getWebsiteContent(url) {
     console.log("url", url);
     const page = await browser.newPage();
