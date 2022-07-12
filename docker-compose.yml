@@ -8,7 +8,9 @@ services:
   mongo:
     image: mongo
     container_name: mongo
-
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${username}
+      MONGO_INITDB_ROOT_PASSWORD: ${pwd}
     #depends_on:
     #  - mongodata
     #volumes_from:
@@ -16,12 +18,7 @@ services:
     restart: always
     ports:
       - 27017:27017
-  mongo-express:
-    image: mongo-express
-    depends_on:
-      - mongo
-    ports:
-      - "8081:8081"
+
 
 
   web:
