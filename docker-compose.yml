@@ -21,6 +21,7 @@ services:
   mongo-express:
     image: mongo-express
     environment:
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: true
       ME_CONFIG_BASICAUTH_USERNAME: marius_admin
       ME_CONFIG_BASICAUTH_PASSWORD: test_pwd
       ME_CONFIG_MONGODB_ADMINUSERNAME: ${username}
