@@ -20,6 +20,9 @@ services:
       - 27017:27017
   mongo-express:
     image: mongo-express
+    environment:
+      ME_CONFIG_BASICAUTH_USERNAME: marius_admin
+      ME_CONFIG_BASICAUTH_PASSWORD: test_pwd
     depends_on:
       - mongo
     ports:
