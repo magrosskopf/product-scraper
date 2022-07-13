@@ -8,9 +8,9 @@ services:
   mongo:
     image: mongo
     container_name: mongo
-    #environment:
-      #MONGO_INITDB_ROOT_USERNAME: ${username}
-      #MONGO_INITDB_ROOT_PASSWORD: ${pwd}
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${username}
+      MONGO_INITDB_ROOT_PASSWORD: ${pwd}
     #depends_on:
     #  - mongodata
     #volumes_from:
@@ -24,6 +24,7 @@ services:
       #- mongo
     #ports:
       #- "8081:8081"
+
 
 
   web:
