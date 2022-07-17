@@ -1,10 +1,10 @@
 version: '3.3'
 services:
-  #mongodata:
-  #  image: mongo
-  #  volumes:
-  #    - /data/db
-  #  entrypoint: /bin/bash
+  mongodata:
+    image: mongo
+    volumes:
+      - /data/db
+    entrypoint: /bin/bash
   mongo:
     image: mongo
     container_name: mongo

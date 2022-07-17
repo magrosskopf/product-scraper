@@ -20,7 +20,7 @@ EXPOSE 3000
 FROM base as production
 ENV NODE_ENV=production
 RUN npm install docker-ci
-RUN npm install --production
+RUN npm install
 COPY --chown=node:node . .
 CMD ["node", "www"]
 

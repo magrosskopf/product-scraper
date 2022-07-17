@@ -12,6 +12,7 @@ const serpApi = require("./SerpApi/serp")
 const serp = new serpApi();
 
 exports.start = async function() {
+    console.log("-----Start-----")
     await browser.launch()
     const searchTerms = helpers.getSearchTerms();
     const crawledData = await crawlAndSave(searchTerms);
