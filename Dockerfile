@@ -27,6 +27,7 @@ CMD ["node", "www"]
 FROM base as dev
 USER root
 ENV NODE_ENV=development
-RUN npm install -g nodemon #&& npm install
+npm cache clean
+RUN npm install -g nodemon && npm install
 #COPY --chown=node:node . .
-CMD ["nodemon", "www"]
+CMD ["node", "www"]
