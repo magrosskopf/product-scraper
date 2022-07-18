@@ -8,14 +8,17 @@ services:
   mongo:
     image: mongo
     container_name: mongo
+    env_file: ./.env
     environment:
-      MONGO_INITDB_ROOT_USERNAME: ${username}
-      MONGO_INITDB_ROOT_PASSWORD: ${pwd}
+      - MONGO_INITDB_ROOT_USERNAME=$MONGODB_USER
+      - MONGO_INITDB_ROOT_PASSWORD=$MONGODB_PASSWORD
+
+
     #depends_on:
     #  - mongodata
     #volumes_from:
     #  - mongodata
-    restart: always
+    restart: unless-stopped
     ports:
       - 27017:27017
   #mongo-express:

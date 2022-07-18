@@ -6,7 +6,7 @@ dotenv.config()
 
 class Database {
     constructor() {
-        this.mongoDB = `mongodb://marius_admin:FcZ0gpvmoAV37@mongo:27017/productdata`;
+        this.mongoDB = `mongodb://mongo:27017/productdata`;
     }
 
      async connect() {
