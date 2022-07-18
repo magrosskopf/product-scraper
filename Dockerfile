@@ -11,10 +11,8 @@ RUN apk add \
 USER node
 
 WORKDIR /home/node
-COPY  ./package.json ./package.json
-COPY ./package-lock.json ./package-lock.json
-COPY --chown=node:node ./ ./
-RUN  npm install
+COPY --chown=node:node . .
+RUN npm install
 
 
 EXPOSE 3000
