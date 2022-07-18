@@ -24,7 +24,8 @@ class Serp {
         const params = {
             q: term,
             hl: "de",
-            gl: "de"
+            gl: "de",
+            num: 100
         };
 
         // https://stackabuse.com/converting-callbacks-to-promises-in-node-js/
