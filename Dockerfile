@@ -26,8 +26,8 @@ EXPOSE 3000
 
 FROM base as dev
 USER root
+COPY --chown=node:node . .
 ENV NODE_ENV=development
 RUN npm cache verify
 RUN npm install -g nodemon && npm install
-COPY --chown=node:node . .
 CMD ["node", "www"]
