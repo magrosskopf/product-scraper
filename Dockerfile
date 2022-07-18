@@ -11,9 +11,9 @@ RUN apk add --no-cache \
 USER node
 
 WORKDIR /home/node
-COPY --chown=node:node ./package.json ./package.json
-COPY --chown=node:node ./package-lock.json ./package-lock.json
-COPY --chown=node:node . .
+COPY ./package.json ./package.json
+COPY ./package-lock.json ./package-lock.json
+COPY . .
 RUN npm cache verify
 RUN  npm install
 
