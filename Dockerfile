@@ -1,4 +1,4 @@
-FROM node:16.13.0-alpine as base
+FROM node:latest-alpine as base
 RUN apk add --no-cache \
       chromium \
       nss \
@@ -13,7 +13,11 @@ USER node
 WORKDIR /home/node
 COPY --chown=node:node ./package.json ./package.json
 COPY --chown=node:node ./package-lock.json ./package-lock.json
-
+COPY --chown=node:node . .
+ENV NODE_ENV=development
+RUN npm cache verify
+RUN npm install -g nodemon && npm install
+CMD ["node", "www"]
 
 EXPOSE 3000
 
@@ -24,10 +28,6 @@ EXPOSE 3000
 #COPY --chown=node:node . .
 #CMD ["node", "www"]
 
-FROM base as dev
-USER root
-COPY --chown=node:node . .
-ENV NODE_ENV=development
-RUN npm cache verify
-RUN npm install -g nodemon && npm install
-CMD ["node", "www"]
+#FROM base as dev
+#USER root
+
