@@ -1,4 +1,4 @@
-FROM node:latest-alpine as base
+FROM node:18-alpine3.15 as base
 RUN apk add --no-cache \
       chromium \
       nss \
@@ -17,10 +17,10 @@ COPY --chown=node:node . .
 ENV NODE_ENV=development
 RUN npm cache verify
 RUN npm install -g nodemon && npm install
-CMD ["node", "www"]
+
 
 EXPOSE 3000
-
+CMD ["node", "www"]
 #FROM base as production
 #ENV NODE_ENV=production
 #RUN npm install docker-ci
