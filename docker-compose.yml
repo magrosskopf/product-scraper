@@ -19,8 +19,6 @@ services:
     #volumes_from:
     #  - mongodata
     restart: unless-stopped
-    ports:
-      - 27017:27017
   #mongo-express:
     #image: mongo-express
     #depends_on:
