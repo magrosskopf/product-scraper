@@ -25,7 +25,7 @@ class Serp {
             q: term,
             hl: "de",
             gl: "de",
-            num: 30
+            num: 15
         };
 
         // https://stackabuse.com/converting-callbacks-to-promises-in-node-js/
